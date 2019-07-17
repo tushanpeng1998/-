@@ -1,0 +1,18 @@
+package 第一章的设计程序;
+//改良版
+public class 啤酒瓶 {
+	public static void main (String[] args) {
+			int beerNum=99;
+			System.out.println(beerNum+"");//加了一个输出总瓶子数的代码
+			while (beerNum>0) {
+				if (beerNum<100) {	
+				beerNum=beerNum-1;
+				if (beerNum>0) {
+					System.out.println(beerNum+"");
+				}else {
+					System.out.println("No more bottles of beer on the wall");
+			  }
+			}
+         }
+      }
+}
