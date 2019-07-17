@@ -5,7 +5,7 @@ class DooBee {
 		if (x==3) {//==等号运算符
 			System.out.println("x must be 3");
 		}
-		System.out.println("This runs ni matter what");
+		System.out.println("This runs no matter what");
 	}
 
 }
